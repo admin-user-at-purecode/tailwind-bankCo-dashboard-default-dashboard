@@ -211,6 +211,6 @@
             }
         }
     },
-    "sizing_updates": [".."],
+    "sizing_updates": ["TeamChat and Wallet positioned to left", "ListTab is positioned in between TotalWidget and RevenueFlow"],
     "screen_and_layout_augmentations": ["..."]
 }
