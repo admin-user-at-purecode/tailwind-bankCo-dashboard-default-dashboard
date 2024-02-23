@@ -211,6 +211,6 @@
             }
         }
     },
-    "sizing_updates": [".."],
+    "sizing_updates": ["Swapped position of Efficiency and RevenueFlow","ListTab is positioned to top"],
     "screen_and_layout_augmentations": ["..."]
 }
