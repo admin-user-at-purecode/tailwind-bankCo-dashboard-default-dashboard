@@ -212,5 +212,5 @@
         }
     },
     "sizing_updates": [".."],
-    "screen_and_layout_augmentations": ["..."]
+    "screen_and_layout_augmentations": ["Swapped positions of Efficiency and RevenueFlow","TotalWidget is dropped below the RevenueFlow component"]
 }
