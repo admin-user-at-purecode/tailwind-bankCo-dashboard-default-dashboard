@@ -211,6 +211,6 @@
             }
         }
     },
-    "sizing_updates": [".."],
+    "sizing_updates": ["added TotalWidget below ListTab","positioned Efficiency and RevenueFlow to bottom "],
     "screen_and_layout_augmentations": ["..."]
 }
