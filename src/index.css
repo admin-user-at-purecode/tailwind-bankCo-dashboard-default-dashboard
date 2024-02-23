@@ -3,16 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.switch-btn {
-  @apply bg-bgray-300;
-}
-.switch-btn.active {
-  @apply bg-success-300;
-}
-.switch-btn span {
-  @apply translate-x-0;
-}
-.switch-btn.active span {
-  @apply translate-x-[23px];
-}

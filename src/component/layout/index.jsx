@@ -1,15 +1,14 @@
 import Sidebar from "./sidebar/index";
 import SidebarV2 from "./sidebar/SidebarV2";
-import Overlay from "./overlay";
 import HeaderOne from "./header/HeaderOne";
 import HeaderTwo from "./header/HeaderTwo";
 import { useState } from "react";
 import { createContext } from "react";
 import Home from "../../pages/DefaultDashboard";
 
-export const ThemeContext = createContext(null);
+export const ThemeContext = createContext('');
 
-function Layout({ bg, overlay }) {
+function Layout() {
     const [sidebar, setSidebar] = useState(true);
     const [theme, setTheme] = useState(
         localStorage.getItem("theme") === "" || localStorage.getItem("theme")
@@ -29,13 +28,8 @@ function Layout({ bg, overlay }) {
             >
                 <div className="relative flex w-full">
                     <Sidebar handleActive={() => setSidebar(!sidebar)} />
-                    {overlay ? overlay : <Overlay />}
                     <SidebarV2 />
-                    <div
-                        className={`body-wrapper flex-1 overflow-x-hidden ${
-                            bg ? bg : "dark:bg-darkblack-500"
-                        } `}
-                    >
+                    <div className={`body-wrapper flex-1 overflow-x-hidden`}>
                         <HeaderOne handleSidebar={() => setSidebar(!sidebar)} />
                         <HeaderTwo handleSidebar={() => setSidebar(!sidebar)} />
                         <Home />

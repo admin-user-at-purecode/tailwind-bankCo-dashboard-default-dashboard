@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { ThemeContext } from "..";
+import { ThemeContext } from "../../layout/index";
 
 function ModeToggler() {
     if (

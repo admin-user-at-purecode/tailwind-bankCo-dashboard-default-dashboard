@@ -1,0 +1,45 @@
+{
+    "theme_augmentations": {
+        "font": "Arial",
+        "background": "white"
+    },
+    "component_names": ["Sidebar", "Header", "TotalWidget"],
+    "component_counts": {
+        "Sidebar": 1,
+        "header": 1,
+        "TotalWidget": 3,
+        "RevenueFlow": 1,
+        "Efficiency": 1,
+        "ListTab": 1,
+        "Wallet": 1,
+        "TeamChat": 1,
+        "DateFilter": 1,
+        "Search": 1,
+        "SelectFilter": 4,
+        "UserTab": 1,
+        "Pagination": 1
+    },
+    "component_locations": {
+        "Sidebar": "left of the page, fixed",
+        "header": "top of the page",
+        "TotalWidget": "three below the header, flexed",
+        "RevenueFlow": "below the TotalWidget component",
+        "DateFilter": "inside the RevenueFlow component, top-right",
+        "BarChart": "inside the RevenueFlow component",
+        "Efficiency": "to the right of the RevenueFlow component",
+        "PieChart": "inside the Efficiency component",
+        "ListTab": "below the RevenueFlow and Efficiency Component",
+        "Search": "top of the ListTab component",
+        "Filter": "to the right of the Search component",
+        "SelectFilter": "below the Search component",
+        "UserTab": "bottom of the SelectFilter row",
+        "Pagination": "below the UserTab table component",
+        "Wallet": "to the right of the Efficiency",
+        "TeamChat": "to the bottom of the Wallet component"
+    },
+    "functionality": {
+        "sidebar_toggle": "a toggle feature that allows the sidebar to be collapse and expand",
+        "table_pagination": "a feature that allows the table to be paginated",
+        "table_filtering": "a feature that allows the table to be filtered based on month"
+    }
+}
