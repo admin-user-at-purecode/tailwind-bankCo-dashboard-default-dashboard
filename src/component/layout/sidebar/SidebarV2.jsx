@@ -73,9 +73,7 @@ function SidebarV2() {
                                     </li>
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                 </ul>
@@ -84,37 +82,27 @@ function SidebarV2() {
                                 <ul className="mt-2.5 flex flex-col items-center justify-center">
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                     <li className="item px-[43px] py-[11px]">
                                         <a href="#">
-                                            <span className="item-ico">
-                                                <Svg />
-                                            </span>
+                                            <Svg />
                                         </a>
                                     </li>
                                 </ul>

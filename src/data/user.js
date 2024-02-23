@@ -40,7 +40,7 @@ const user = [
   {
     id: 4,
     img: userImg3,
-    name: "Devon Lane",
+    name: "Devon Svauvuv",
     email: "devon@mail.com",
     location: "Philadelphia, USA",
     spent: "101.00",

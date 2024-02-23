@@ -13,11 +13,9 @@ function TotalWidgetCard({ title, amount, groth, memberImg, totalEarnImg }) {
   const chartRef = useRef(null);
 
   useEffect(() => {
-    // // Get canvas context and create gradient
     const ctx = chartRef?.current?.getContext("2d")?.chart.ctx;
     if (ctx) {
       const gradient = createGradient(ctx);
-      // Update chart data and options
       chartRef.current.data.datasets[0].backgroundColor = gradient;
       chartRef.current.update();
     }

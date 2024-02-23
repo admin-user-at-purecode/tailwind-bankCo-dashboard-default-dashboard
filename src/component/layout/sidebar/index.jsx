@@ -261,37 +261,7 @@ function Sidebar({ handleActive }) {
                                         <span className="text-sm font-semibold text-white">
                                             Upgrade Now
                                         </span>
-                                        <span>
-                                            <svg
-                                                width="12"
-                                                height="8"
-                                                viewBox="0 0 12 8"
-                                                fill="none"
-                                                xmlns="http://www.w3.org/2000/svg"
-                                            >
-                                                <path
-                                                    d="M1.33301 4H10.6663"
-                                                    stroke="white"
-                                                    strokeWidth="1.5"
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                />
-                                                <path
-                                                    d="M8 6.66667L10.6667 4"
-                                                    stroke="white"
-                                                    strokeWidth="1.5"
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                />
-                                                <path
-                                                    d="M8 1.33325L10.6667 3.99992"
-                                                    stroke="white"
-                                                    strokeWidth="1.5"
-                                                    strokeLinecap="round"
-                                                    strokeLinejoin="round"
-                                                />
-                                            </svg>
-                                        </span>
+                                        <Svg/>
                                     </div>
                                 </div>
                             </a>

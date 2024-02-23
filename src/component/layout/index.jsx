@@ -6,7 +6,7 @@ import { useState } from "react";
 import { createContext } from "react";
 import Home from "../../pages/DefaultDashboard";
 
-export const ThemeContext = createContext('');
+export const ThemeContext = createContext("");
 
 function Layout() {
     const [sidebar, setSidebar] = useState(true);
@@ -29,7 +29,9 @@ function Layout() {
                 <div className="relative flex w-full">
                     <Sidebar handleActive={() => setSidebar(!sidebar)} />
                     <SidebarV2 />
-                    <div className={`body-wrapper flex-1 overflow-x-hidden`}>
+                    <div
+                        className={`body-wrapper flex-1 overflow-x-hidden`}
+                    >
                         <HeaderOne handleSidebar={() => setSidebar(!sidebar)} />
                         <HeaderTwo handleSidebar={() => setSidebar(!sidebar)} />
                         <Home />
