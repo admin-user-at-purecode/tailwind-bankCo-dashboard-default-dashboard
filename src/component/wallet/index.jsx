@@ -9,7 +9,7 @@ import GreenBtn from "../button/AddMony";
 
 function Wallet() {
   return (
-    <div className="mb-6 w-full rounded-lg bg-white px-[42px] py-5 dark:border dark:border-darkblack-400 dark:bg-darkblack-600 lg:mb-0 lg:w-1/2 2xl:mb-6 2xl:w-full">
+    <div className="mb-6 w-full rounded-lg bg-white px-[42px] py-5 dark:border dark:border-darkblack-400 dark:bg-darkblack-600 lg:mb-0 lg:full 2xl:mb-6 2xl:w-full">
       <div className="my-wallet mb-8 w-full">
         <div className="mb-3 flex items-center justify-between">
           <h3 className="text-lg font-bold text-bgray-900 dark:text-white">
