@@ -102,9 +102,7 @@ function Sidebar({ handleActive }) {
                         <ul className="mt-2.5">
                             <li
                                 className={`item py-[11px] text-bgray-900 dark:text-white nav-active`}
-                                onClick={() =>
-                                    setActiveDashboard(!activeDashboard)
-                                }
+                              
                             >
                                 <a className="cursor-pointer">
                                     <div className="flex items-center justify-between">
