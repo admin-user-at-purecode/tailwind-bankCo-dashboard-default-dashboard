@@ -206,6 +206,6 @@
             }
         }
     },
-    "sizing_updates": [".."],
-    "screen_and_layout_augmentations": ["Efficiency component is removed","RevenueFlow component is removed"]
+    "sizing_updates": [],
+    "screen_and_layout_augmentations": ["Wallet component is removed","ListTab component is removed","TotalWidget is added"]
 }
