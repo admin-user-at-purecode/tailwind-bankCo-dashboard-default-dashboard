@@ -1,4 +1,3 @@
-import PieChart from "../chart/PieChart";
 import MonthFilter from "../forms/MonthFilter";
 
 function Efficiency({ width, height }) {
@@ -13,17 +12,6 @@ function Efficiency({ width, height }) {
         </div>
         <div className="px-[20px] py-[12px]">
           <div className="mb-4 flex items-center space-x-8">
-            <div
-              className={`relative ${width ? width : "w-[180px]"} ${
-                height && height
-              }`}
-            >
-              <PieChart />
-              <div
-                className="absolute z-0 h-[34px] w-[34px] rounded-full bg-[#EDF2F7]"
-                style={{ left: "calc(50% - 17px)", top: "calc(50% - 17px)" }}
-              ></div>
-            </div>
             <div className="counting">
               <div className="mb-6">
                 <div className="flex items-center space-x-[2px]">
