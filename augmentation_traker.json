@@ -207,5 +207,5 @@
         }
     },
     "sizing_updates": [],
-    "screen_and_layout_augmentations": ["Wallet component is removed","ListTab component is removed","TotalWidget is added"]
+    "screen_and_layout_augmentations": ["Wallet component is removed","ListTab component is removed"]
 }
