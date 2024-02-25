@@ -207,5 +207,5 @@
         }
     },
     "sizing_updates": [".."],
-    "screen_and_layout_augmentations": ["removed dashboard functionality","removed ListTab component"]
+    "screen_and_layout_augmentations": ["removed dashboard functionality","removed SideBar toggle functionality "]
 }

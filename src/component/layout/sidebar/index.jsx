@@ -63,7 +63,7 @@ function Sidebar({ handleActive }) {
                     <img src={logo} className="block dark:hidden" alt="logo" />
                     <img src={logoW} className="hidden dark:block" alt="logo" />
                 </a>
-                <button
+                {/* <button
                     aria-label="none"
                     type="button"
                     onClick={handleActive}
@@ -91,7 +91,7 @@ function Sidebar({ handleActive }) {
                             />
                         </svg>
                     </span>
-                </button>
+                </button> */}
             </div>
             <div className="sidebar-body overflow-style-none relative z-30 h-screen w-full overflow-y-scroll pb-[200px] pl-[48px] pt-[14px]">
                 <div className="nav-wrapper mb-[36px] pr-[50px]">
