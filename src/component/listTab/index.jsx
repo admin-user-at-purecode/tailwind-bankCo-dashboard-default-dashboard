@@ -12,9 +12,7 @@ function ListTab({ pageSize }) {
                     <Search />
                     <Filter options={["January", "February", "March"]} />
                 </div>
-                <FilterFull />
                 <UserTab pageSize={pageSize} />
-                <Pagination />
             </div>
         </div>
     );
