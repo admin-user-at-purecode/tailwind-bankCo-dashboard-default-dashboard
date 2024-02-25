@@ -108,12 +108,18 @@
         "Sidebar": {
             "count": 1,
             "location": "to the left of the page, fixed",
-            "description": "collapsible, to the left, on toggled "
+            "description": "collapsible, to the left, on toggled",
+            "children":{
+                "menuItems":{
+                    "description":"list of menus in column that contains svg followed by menu in a flexed container"
+                }
+            }
         },
         "SidebarV2": {
             "count": 1,
             "location": "to the left of the page, fixed",
-            "description": "collapsible, to the right, on toggled"
+            "description": "collapsible, to the right, on toggled",
+            "children":"svg of the menus in smaller screen and when toggled"
         },
         "Home": {
             "count": 1,
@@ -212,5 +218,5 @@
         }
     },
     "sizing_updates": [".."],
-    "screen_and_layout_augmentations": ["..."]
+    "screen_and_layout_augmentations": ["PaymentFilter and PaymentSelect component is removed from Wallet"]
 }
